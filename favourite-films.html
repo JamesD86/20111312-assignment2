@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>James Delahunty - My Favorite Films</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.9.3/semantic.min.css">
+	<link rel="stylesheet" href="css/semantic.min.css">
+	<link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+
+<div class="ui container">
+	<header>
+	
+		<div class="ui center aligned grid">
+			<div class="row">
+				<div class="sixteen wide centered column">
+					<h1>James Delahunty</h1>
+					<h2>My All Time Favorite Films</h2>
+				</div>
+			</div>
+		</div>
+		
+		
+	
+	</header>
+	
+	
+    <nav class="ui seven item menu">
+		<a class="active item" href="index.html">Home</a>
+		<a class="item" href="work-history.html">Work</a>
+		<a class="item" href="education.html">Education</a>
+		<a class="item" href="interests.html">Interests</a>
+		<a class="item" href="contact-me.html">Contact Me</a>
+		<a class="item" href="favourite-films.html">Favourite Films</a>
+		<a class="item" href="favourite-album.html">Favourite Album</a>
+	</nav>
+
+
+	<main class="moviepage">
+	<div class="ui container" style="margin-top: 100px;">
+
+        <div class="ui three stackable cards centered">
+		
+			<div class="ui card">
+				<div class="image">
+					<img src="images/andyred.jpg" alt="The Shawshank Redemption">
+				</div>
+				
+				<div class="content">
+					<a class="header">The Shawshank Redemption</a>
+					<div class="meta">
+						<span class="date">1994</span>
+					</div>
+					<div class="description">
+						Based on Stephen King's "Rita Hayworth and the Shawshank Redemption", this masterpiece tells the story of a convicted murderer, Andy Dufresne, as he clings to hope for survival in a brutal maximum security prison. Corruption, murder, and grief are abound, but offset by friendship with an unlikely co-conspirator, Red. This film is widely regarded as the gretest ever made, despite being a theatrical flop when released.
+					</div>
+				</div>
+				
+				<div class="extra content">
+					<a href="https://www.imdb.com/title/tt0111161/" target="_blank">See on IMDB</a>
+				</div>
+			</div>
+
+			<div class="ui card">
+				<div class="image">
+					<img src="images/lotr.jpeg" alt="The Lord Of The Rings">
+				</div>
+				
+				<div class="content">
+					<a class="header">Lord of the Rings</a>
+					<div class="meta">
+						<span class="date">2001-2003</span>
+					</div>
+					<div class="description">
+						Based on the genius works of J.R.R. Tolkien, the Lord of the Rings trilogy is widely considered to be among the great works of fantasy every adapted for the screen. Director Peter Jackson brings the world of Middle Earth to life in an epic adventure that spans more than 12 hours if watched back to back. I consider myself privileged to have seen all three in theater when released.
+					</div>
+				</div>
+				
+				<div class="extra content">
+					<a href="https://www.imdb.com/title/tt8756018/" target="_blank">See on IMDB</a>
+				</div>
+			</div>
+
+			<div class="ui card">
+				<div class="image">
+					<img src="images/godfather2.jpg" alt="The Godfather Part II">
+				</div>
+				
+				<div class="content">
+					<a class="header">The Godfather II</a>
+					<div class="meta">
+						<span class="date">1974</span>
+					</div>
+					<div class="description">
+						Directed by Francis Ford Coppola, and considered his masterpiece, the Godfather II picks up where its predecessor left off. Michael Corleone, portrayed by Al Pacino, devolves from a decorated war hero to the ruthless head of his Mafia crime family. Michael's neverending thirst to rid the enemies of his crime family, tears him from his real family, and he sinks deeper into the darkness.
+					</div>
+				</div>
+				
+				<div class="extra content">
+					<a href="https://www.imdb.com/title/tt1375666/" target="_blank">See on IMDB</a>
+				</div>
+		</div>
+            
+    </div>
+	
+	<div class="ui container" style="margin-top: 50px;">
+        <h1 class="ui header center aligned">Do you have movie suggestions for me?</h1>
+
+        <form class="ui form" action="#" method="get">
+            <div class="form-container">
+                <div class="field">
+                    <label for="name">What is your full name?:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name here!" pattern="[A-Z][a-z]+( [A-Z][a-z]+)*" title="Please use a valid name beginning with a capital letter." required>
+                </div>
+
+                <div class="field">
+                    <label for="age">What is your Age:</label>
+                    <input type="number" id="age" name="age" placeholder="How old are you? (Be honest!)">
+                </div>
+
+                <div class="field">
+                    <label for="movie">Movie Recommendation:</label>
+                    <input type="text" id="movie" name="movie" placeholder="What do I really need to see?" required>
+                </div>
+
+                <div class="field">
+                    <label>Age Rating?</label>
+                    <div class="radio-group">
+                        <div>
+                            <input type="radio" id="rating-g" name="rating" value="G">
+                            <label for="rating-g">G</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="rating-pg" name="rating" value="PG">
+                            <label for="rating-pg">PG</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="rating-15" name="rating" value="15+">
+                            <label for="rating-15">15+</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="rating-18" name="rating" value="18+">
+                            <label for="rating-18">18+</label>
+                        </div>
+						<div>
+                            <input type="radio" id="rating-unknown" name="rating" value="I Don't Know!">
+                            <label for="rating-18">I Don't Know!</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="field">
+                    <label for="email">Your Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$" title="Please use a valid e-mail address (e.g. name@website.com)" required>
+                </div>
+
+                <div class="field">
+                    <label for="morecomments">Tell me why you want me to view this movie?</label>
+                    <textarea id="morecomments" name="morecomments" placeholder="NO SPOILERS PLEASE!!"></textarea>
+                </div>
+
+                <div class="button-group">
+                    <button class="ui primary button" type="submit">Suggest</button>
+                    <button class="ui button" type="reset">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+	
+	
+
+	</div>
+	
+	</main>
+
+</div>
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.9.3/semantic.min.js"></script>
+
+	<script src="js/jquery.com"></script>
+	<script src="js/semantic.min.js"></script>
+</body>
+
+</html>
